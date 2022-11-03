@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles.css">
+  <title>Sams I.T Solutions</title>
+  <style>
+    
+      
+  </style>
+  </head>
+  <body>
+    <h1 id="title">Sam's I.T Solutions Survey Form</h1>
+    <p id="description">
+      Thank you for helping this platform become better</p>
+    <div class="form-area">
+      <form id="survey-form">
+       <div> <label id="name-label">Name: <input id="name" type="text"
+         placeholder="Enter your name" required ></input></label></div>
+              <div> <label id="email-label">E-mail: <input id="email" 
+        type="email" placeholder="Enter your Email" required></input></label><div>    
+        <label id="number-label">Age (optional) <input id="number" type="number" placeholder="Age" min="10" max="100"></input></label>
+        <p>How satisfied are you with our service: 
+          <select id="dropdown">  
+        <option value="">(choose one)</option>
+         <option value="1">Very Satisfied</option>
+          <option value="2">Satisfied</option>
+          </select></p>
+          
+         <p>Would you recommend Sams I.T solutions to a friend?<p>
+          <div><label id="Definetly"><input id="Definetly" 
+          name="recommendation" value="Definetly" type="radio" 
+          name="recommendation"/>Definetly</input></label></div>
+          <div><label id="maybe"><input id="maybe" name="recommendation" value="maybe" type="radio" />Maybe</input></label></div>
+          <div><label id="no"><input id="no" value="no"
+           name="recommendation" type="radio" />No</input></label></div>
+
+         <p>What of the services offered did you enjoy the most?</p>
+         <div><label id="computer-training">
+           <input id="computer-training" 
+         type="checkbox" value="computer-training"/>
+         Computer training</input></label></div>
+         <div><label id="document-processing">
+           <input id="document-processing" 
+         type="checkbox" value="document-processing"/>
+         Document processing</input></label></div>
+         <p>Any comments or suggestions?</p>
+
+          <div><textarea id="comments" name="comments"
+           rows="3" cols="30" placeholder="Enter your comments here..."></textarea></div>
+          <div><input id="submit" value="Submit" type="submit"/> </div>       
+        </label>
+      </form>
+    </div>
+  </body>
